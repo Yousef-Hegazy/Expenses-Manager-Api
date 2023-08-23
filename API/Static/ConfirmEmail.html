@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Email Confirm</title>
+</head>
+<body>
+<div class="flex flex-col space-y-4 ring-1 ring-neutral-300 w-max mx-auto my-10 rounded px-8 py-6">
+    <p>
+        Hello {name}! Please confirm your email address by clicking the link below
+    </p>
+
+    <a
+            href="{link}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="py-1.5 px-2.5 rounded-full ring-1 ring-neutral-300 bg-white text-neutral-800 text-lg no-underline shadow-lg w-max"
+    >Confirm Email</a
+    >
+</div>
+</body>
+</html>
